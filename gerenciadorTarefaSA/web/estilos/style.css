@@ -1,0 +1,55 @@
+    body {
+      background-color: #ffffff; /* Fundo branco puro */
+      font-family: Arial, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card-login {
+      margin-top: 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Sombra mais leve */
+      border-radius: 8px;
+      background-color: #fff; /* Fundo branco puro */
+      padding: 20px;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .card-login .card-title {
+      margin-bottom: 15px;
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+      color: #333;
+    }
+
+    .form-group label {
+      font-weight: bold;
+    }
+
+    input, button {
+      border-radius: 4px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      font-size: 14px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #007bff; /* Cor do botão */
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #0056b3; /* Cor do botão ao passar o mouse */
+    }
+

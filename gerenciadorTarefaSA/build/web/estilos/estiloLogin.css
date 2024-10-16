@@ -1,0 +1,82 @@
+body {
+  background-color: #f5f7fa; /* Fundo mais suave */
+  font-family: Arial, sans-serif;
+}
+
+.card-login {
+  margin-top: 40px;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03); /* Sombra mais leve */
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.card-login .card-body {
+  padding: 30px;
+}
+
+.card-login .card-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.card-login .form-group {
+  margin-bottom: 20px;
+}
+
+.card-login .form-control {
+  height: 40px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #e0e0e0; /* Cinza mais claro */
+  border-radius: 6px;
+  background-color: #fafbfc; /* Tom mais claro no fundo */
+  transition: border-color 0.2s;
+}
+
+.card-login .form-control:focus {
+  border-color: #b0b0b0; /* Foco mais discreto */
+  box-shadow: none;
+}
+
+.card-login .btn-primary {
+  background-color: #5a67d8;
+  color: #ffffff;
+  padding: 10px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  width: 100%;
+}
+
+.card-login .btn-primary:hover {
+  background-color: #434190;
+}
+
+.card-login .btn-primary:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.card-login .form-text {
+  font-size: 13px;
+  color: #7d7d7d;
+  text-align: center;
+}
+
+.card-login .form-text a {
+  color: #5a67d8;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.card-login .form-text a:hover {
+  color: #434190;
+}
